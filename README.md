@@ -1,9 +1,10 @@
-![](obsidian_logo.png)
+![](Attachments/obsidian_logo.png)
 # Что такое `Obsidian` и `markdown`?
 
 `Obsidian` - это не облачный сервис, а просто очень красивый и удобный интерфейс для работы с локальными текстовыми файлами формата `.md`
 
->[!note] Основные плюсы:
+>[!note]
+>Основные плюсы:
 >1. Все файлы хранятся у Вас. Они не пропадут и Вас не смогут забанить. Но главное - никакой сети для написания заметок Вам не нужно.
 >2. Они легкие по весу, т.к. любые фишки работают при помощи текстовых символов. В отличие от `Word`, например, мы передаём ненужные данные о размерах шрифта, самом шрифте, расположении каждого абзаца на странице и пр. Подробнее рассказано [в этом видео на youtube](https://youtu.be/7a-YGcVG4_0?si=fE2bQnz8mPMC9bOP)
 >3. Очень легко налаживать контроль версий, особенно с таким средством как `GitHub` - легко отследить, какая строка изменилась, какой файл был перемещён и т.п.
@@ -22,19 +23,22 @@
 >
 > | Тема                       | Ссылка                  |
 > | -------------------------- | ----------------------- |
-> | Obsidian Flavored Markdown | [obsidian-markdown](obsidian-markdown.md)   |
-> | Obsidian Properties        | [obsidian-properties](obsidian-properties.md) |
-> | JSON Canvas                | [json-canvas](json-canvas.md)         |
-> | Obsidian Bases             | [obsidian-bases](obsidian-bases.md)      |
+> | Obsidian Flavored Markdown | [obsidian-markdown](guides_for_ai/obsidian-markdown.md)   |
+> | Obsidian Properties        | [obsidian-properties](guides_for_ai/obsidian-properties.md) |
+> | JSON Canvas                | [json-canvas](guides_for_ai/json-canvas.md)         |
+> | Obsidian Bases             | [obsidian-bases](guides_for_ai/obsidian-bases.md)      |
 >
-> Для изучения `Obsidian` достаточно прочитать 1-ый файл, [obsidian-markdown](obsidian-markdown.md). Остальное - уже на любителя.
+> Для изучения `Obsidian` достаточно прочитать 1-ый файл, [obsidian-markdown](guides_for_ai/obsidian-markdown.md). Остальное - уже на любителя.
 
 Перед тем, как начать составлять заметки, советую ознакомиться с моей [заметкой для "инициализации" `Vault`](Initial.md).
 
->[!summary]
->Чтобы уже сейчас начать работать с `Obsidian`, Вам достаточно:
->- изучить `SandBox Vault` и/или [`obsidian-markdown`](obsidian-markdown.md)
->- прочитать [мои must-have для начальных настроек приложения](initial.md#must-have)
+# Что нужно, чтобы начать?
+
+Чтобы уже сейчас начать работать с `Obsidian`, Вам достаточно:
+- изучить `SandBox Vault` и/или [`obsidian-markdown`](guides_for_ai/obsidian-markdown.md)
+- прочитать [мои must-have для начальных настроек приложения](guides_for_ai/initial.md#must-have)
+
+# Более глубокое изучение
 
 ## Личные советы
 
@@ -46,12 +50,12 @@
 
 Помимо топиков в Вашей власти так называемые callout-ы. О них было написано в `Sandbox Vault`, однако там есть опечатки (возможно просто устаревшая версия). Актуальную информацию о них можете посмотреть, перейдя по ссылкам ниже.
 
-| Платформа | Ссылка                                                     |
-| :-------- | :--------------------------------------------------------- |
-| GitHub    | [Callouts_for_GitHub](Obsidian/Callouts_for_GitHub.md)     |
-| Obsidian  | [Callouts_for_Obsidian](Obsidian/Callouts_for_Obsidian.md) |
+| Платформа | Ссылка                                            |
+| :-------- | :------------------------------------------------ |
+| GitHub    | [Callouts_for_GitHub](Callouts_for_GitHub.md)     |
+| Obsidian  | [Callouts_for_Obsidian](Callouts_for_Obsidian.md) |
 
-Важно отметить, что callout-ы для `GitHub` работают в `Obsidian`, но в обратную сторону это не работает. Так что будьте внимательны.
+Важно отметить, что callout-ы для `GitHub` работают в `Obsidian`, но в обратную сторону это не работает. Так что будьте внимательны. И ещё важное НО: `GitHub`-callout-ы не поддерживают заголовки, так что вместо `>[!tip] Мегасовет!` придётся писать просто `>[!tip]`
 
 Чтобы увидеть, как выглядят обсидиановские callout-ы, сохраните эту заметку в свою `Vault`. Крайне рекомендую их использовать пореже, чтобы не привыкать. GitHub их обеспечить не может. Мне они понадобились только для публикации сайта на [Quartz](#Публикация)
 

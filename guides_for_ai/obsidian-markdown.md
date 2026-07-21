@@ -13,12 +13,12 @@ Link to other notes by title — no path or extension needed unless disambiguati
 
 | Syntax                        | Meaning                               |
 | ----------------------------- | ------------------------------------- |
-| `[[Note Name]]`               | Link by note title                    |
-| `[[Note Name\|Display Text]]` | Custom display text                   |
-| `[[Note Name#Heading]]`       | Link to a heading within a note       |
-| `[[Note Name#^block-id]]`     | Link to a specific block              |
-| `[[#Heading]]`                | Link to a heading in the current note |
-| `[[folder/Note Name]]`        | Disambiguate when titles collide      |
+| `[Note Name](Note%20Name)`               | Link by note title                    |
+| `[Display Text](Note%20Name%5C)` | Custom display text                   |
+| `[](Note%20Name#Heading)`       | Link to a heading within a note       |
+| `[](Note%20Name#^block-id)`     | Link to a specific block              |
+| `[#Heading](#Heading)`                | Link to a heading in the current note |
+| `[folder/Note Name](folder/Note%20Name)`        | Disambiguate when titles collide      |
 
 Wikilinks are the preferred linking style in Obsidian. Standard Markdown links (`[text](path)`) also work, but wikilinks integrate with the graph view, backlinks, and autocomplete.
 
@@ -29,7 +29,7 @@ Append a caret + identifier to the end of any block (paragraph, list item, etc.)
 ```markdown
 This is an important paragraph. ^key-point
 
-See [[Other Note#^key-point]] for context.
+See [](Other%20Note#^key-point) for context.
 ```
 
 Block IDs may contain letters, numbers, and hyphens. Obsidian auto-generates one (e.g. `^a1b2c3`) if you link to a block before naming it.
@@ -40,18 +40,18 @@ Prefix any wikilink with `!` to embed the target's content inline instead of lin
 
 | Syntax                     | Meaning                       |
 | -------------------------- | ----------------------------- |
-| `![[Note Name]]`           | Embed an entire note          |
-| `![[Note Name#Heading]]`   | Embed one section             |
-| `![[Note Name#^block-id]]` | Embed a single block          |
-| `![[image.png]]`           | Embed an image                |
-| `![[image.png\|300]]`      | Embed an image at 300px width |
-| `![[image.png\|300x200]]`  | Width x height                |
-| `![[document.pdf]]`        | Embed a PDF                   |
-| `![[document.pdf#page=3]]` | Embed a specific PDF page     |
-| `![[recording.mp3]]`       | Embed audio                   |
-| `![[clip.mp4]]`            | Embed video                   |
+| `![Note Name](Note%20Name)`           | Embed an entire note          |
+| `![](Note%20Name#Heading)`   | Embed one section             |
+| `![](Note%20Name#^block-id)` | Embed a single block          |
+| `![image.png](image.png)`           | Embed an image                |
+| `![300](image.png%5C)`      | Embed an image at 300px width |
+| `![300x200](image.png%5C)`  | Width x height                |
+| `![document.pdf](document.pdf)`        | Embed a PDF                   |
+| `![](document.pdf#page=3)` | Embed a specific PDF page     |
+| `![recording.mp3](recording.mp3)`       | Embed audio                   |
+| `![clip.mp4](clip.mp4)`            | Embed video                   |
 
-Embeds only render in Reading view and Live Preview — they appear as raw `![[...]]` text in Source mode. After adding embeds, let the user know they may need Reading view to see them rendered.
+Embeds only render in Reading view and Live Preview — they appear as raw `![...](...)` text in Source mode. After adding embeds, let the user know they may need Reading view to see them rendered.
 
 ## Callouts
 
@@ -124,14 +124,14 @@ Mermaid diagrams render from a fenced `mermaid` code block and support wikilinks
 
 ```mermaid
 graph TD
-  A[[Note A]] --> B[[Note B]]
+  A[Note A](Note%20A) --> B[Note B](Note%20B)
 ```
 
 Standard GitHub Flavored Markdown — tables, task lists (`- [ ]` / `- [x]`), fenced code blocks, strikethrough (`~~text~~`) — all work as expected.
 
 ## Tips
 
-- Prefer `[[wikilinks]]` over Markdown links so the note participates in the graph and backlinks.
+- Prefer `[wikilinks](wikilinks)` over Markdown links so the note participates in the graph and backlinks.
 - When linking to a heading or block that doesn't exist yet, create the anchor in the target note so the link resolves.
 - Keep callout types lowercase; the title after `[!type]` is free-form text.
 - Don't place body content before frontmatter unless explicitly editing the frontmatter block.

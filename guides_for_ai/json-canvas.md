@@ -43,7 +43,7 @@ Holds Markdown content (Obsidian Flavored Markdown is supported, including wikil
 	"y": 0,
 	"width": 400,
 	"height": 200,
-	"text": "# Hello\n\n**Bold** text and a [[Linked Note]]."
+	"text": "# Hello\n\n**Bold** text and a [Linked Note](Linked%20Note)."
 }
 ```
 

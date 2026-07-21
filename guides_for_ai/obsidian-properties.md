@@ -37,7 +37,7 @@ Internal links must be quoted:
 
 ```yaml
 title: A New Hope
-link: '[[Episode IV]]'
+link: '[Episode IV](Episode%20IV)'
 url: https://www.example.com
 ```
 
@@ -51,8 +51,8 @@ cast:
   - Harrison Ford
   - Carrie Fisher
 links:
-  - '[[Link]]'
-  - '[[Link2]]'
+  - '[Link](Link)'
+  - '[Link2](Link2)'
 ```
 
 Internal links in lists must also be quoted.
@@ -145,7 +145,7 @@ Properties can also be defined as JSON (will be converted to YAML on save):
 
 - **Always use `update_frontmatter`** — never manually edit YAML via `write_file`
 - Use canonical names: `tags` not `tag`, `aliases` not `alias`, `cssclasses` not `cssclass`
-- Quote internal links: `"[[Note Name]]"` in both text and list properties
+- Quote internal links: `"[Note Name](Note%20Name)"` in both text and list properties
 - Use proper date format: `YYYY-MM-DD` for dates, `YYYY-MM-DDTHH:mm:ss` for datetimes
 - Numbers must be literals — no expressions like `1+1`
 

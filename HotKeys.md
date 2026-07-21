@@ -64,5 +64,5 @@
 - [ ] `Ctrl + Alt + Стрелка влево / вправо` - переход на предыдущую/следующую страницу (как в браузере)
 - [ ] `Ctrl + O` - найти или создать заметку
 - [ ] `Ctrl + P` - открыть палитру команд (Command Palette)
-- [ ] `Ctrl + ;` - добавить [`properties`](obsidian-properties.md)
+- [ ] `Ctrl + ;` - добавить [`properties`](guides_for_ai/obsidian-properties.md)
 - [ ] `Ctrl + G` - открыть представление заметок в виде графа
