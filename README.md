@@ -36,7 +36,7 @@
 
 Чтобы уже сейчас начать работать с `Obsidian`, Вам достаточно:
 - изучить `SandBox Vault` и/или [`obsidian-markdown`](guides_for_ai/obsidian-markdown.md)
-- прочитать [мои must-have для начальных настроек приложения](guides_for_ai/initial.md#must-have)
+- прочитать [мои must-have для начальных настроек приложения](Initial.md#Must-have)
 
 # Более глубокое изучение
 
