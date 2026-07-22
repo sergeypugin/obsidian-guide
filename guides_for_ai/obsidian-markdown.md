@@ -124,7 +124,7 @@ Mermaid diagrams render from a fenced `mermaid` code block and support wikilinks
 
 ```mermaid
 graph TD
-  A[Note A](Note%20A) --> B[Note B](Note%20B)
+  A --> B
 ```
 
 Standard GitHub Flavored Markdown — tables, task lists (`- [ ]` / `- [x]`), fenced code blocks, strikethrough (`~~text~~`) — all work as expected.
