@@ -23,12 +23,10 @@ Obsidian — это не облачный сервис, а удобный и к�
 >[!tip]
 >Как оказалось, эти инструкции — не полный и, признаться честно, не лучший разбор возможностей Obsidian: уж больно простым языком всё рассказывается. Совершенно случайно мне попался разбор куда лучше, так сказать, уже для взрослых, но предназначенный изначально для обучения Gemini работе с приложением. Этот разбор я скачал с сайта плагина [Gemini Scribe](https://github.com/allenhutchison/obsidian-gemini/). В папке [bundled-skills](https://github.com/allenhutchison/obsidian-gemini/blob/master/prompts/bundled-skills) есть несколько заметок, но для человека полезна только эта четвёрка:
 >
-> | Тема                       | Ссылка                  |
-> | -------------------------- | ----------------------- |
-> | Obsidian Flavored Markdown | [obsidian-markdown](guides_for_ai/obsidian-markdown.md)   |
-> | Obsidian Properties        | [obsidian-properties](guides_for_ai/obsidian-properties.md) |
-> | JSON Canvas                | [json-canvas](guides_for_ai/json-canvas.md)         |
-> | Obsidian Bases             | [obsidian-bases](guides_for_ai/obsidian-bases.md)      |
+> - [Obsidian Flavored Markdown](guides_for_ai/obsidian-markdown.md) — базовый синтаксис, ссылки и эмбеды.
+> - [Obsidian Properties](guides_for_ai/obsidian-properties.md) — работа со свойствами заметок (frontmatter).
+> - [JSON Canvas](guides_for_ai/json-canvas.md) — бесконечный холст Obsidian.
+> - [Obsidian Bases](guides_for_ai/obsidian-bases.md) — базы данных внутри приложения.
 >
 > Для изучения Obsidian достаточно прочитать 1-ый файл, [obsidian-markdown](guides_for_ai/obsidian-markdown.md), в котором рассказывается самый, что называется, сок. Остальное — уже на любителя.
 
@@ -54,14 +52,11 @@ Obsidian — это не облачный сервис, а удобный и к�
 
 ### Callout-ы
 
-Помимо топиков в вашей власти так называемые callout-ы. О них было написано в `Sandbox Vault`, однако там есть опечатки (возможно, просто устаревшая версия). Актуальную информацию о них можете посмотреть, перейдя по ссылкам ниже.
+Помимо топиков в вашей власти так называемые callout-ы. О них было написано в `Sandbox Vault`, однако там есть опечатки (возможно, просто устаревшая версия). Для этого можно использовать готовые списки:
+- [Callouts_for_GitHub](Callouts_for_GitHub.md)
+- [Callouts_for_Obsidian](Callouts_for_Obsidian.md)
 
-| Платформа | Ссылка                                            |
-| :-------- | :------------------------------------------------ |
-| GitHub    | [Callouts_for_GitHub](Callouts_for_GitHub.md)     |
-| Obsidian  | [Callouts_for_Obsidian](Callouts_for_Obsidian.md) |
-
-Важно отметить, что callout-ы для GitHub работают в Obsidian, но в обратную сторону это не работает. Так что будьте внимательны. И ещё одно важное НО: GitHub-callout-ы не поддерживают заголовки, так что вместо `>[!tip] Мегасовет!` придётся писать просто `>[!tip]`.
+Важно отметить, что callout-ы для GitHub работают в Obsidian, но в обратную сторону это не работает. Так что будьте внимательны. И ещё одно важное НО: GitHub-callout-ы не поддерживают заголовки, так что вместо `>[!tip] Мегасовет!` придётся писать просто `>[!tip]`. Также в Obsidian очень удобно делать сворачиваемые колауты с помощью знаков `+` или `-` (например, `>[!note]-` или `>[!note]+`), но на GitHub эта функция не поддерживается.
 
 Чтобы увидеть, как выглядят обсидиановские callout-ы, сохраните эту заметку в свой Vault. Крайне рекомендую их использовать пореже, чтобы не привыкать. GitHub их обеспечить не может. Мне они понадобились только для публикации сайта на [Quartz](#публикация).
 
