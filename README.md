@@ -1,4 +1,4 @@
-![](Attachments/obsidian_logo.png)
+![](Attachments/obsidian.png)
 # Что такое Obsidian и Markdown?
 
 Obsidian — это не облачный сервис, а удобный и красивый интерфейс для работы с локальными текстовыми файлами формата `.md`
