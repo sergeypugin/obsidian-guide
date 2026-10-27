@@ -1,126 +1,128 @@
+[English](README.md) | [Русский](README.ru.md)
+
 ![](Attachments/obsidian.png)
-# Что такое Obsidian и Markdown?
+# What are Obsidian and Markdown?
 
-Obsidian — это не облачный сервис, а удобный и красивый интерфейс для работы с локальными текстовыми файлами формата `.md`
+Obsidian is not a cloud service. It is a convenient, polished interface for working with local Markdown (`.md`) text files.
 
->[!note]
->Основные плюсы:
->1. Все файлы хранятся у вас. Они не пропадут, и вас не смогут забанить. Но главное — никакой сети для написания заметок вам не нужно.
->2. Они лёгкие по весу, так как любые фишки работают при помощи текстовых символов. В отличие от Word, например, где передаются ненужные данные о размерах шрифта, самом шрифте, расположении каждого абзаца на странице и пр. Подробнее рассказано [в этом видео на YouTube](https://youtu.be/7a-YGcVG4_0?si=fE2bQnz8mPMC9bOP).
->3. Очень легко налаживать контроль версий, особенно с таким средством, как GitHub: легко отследить, какая строка изменилась, какой файл был перемещён и т.п.
->4. Есть множество уникальных фишек: возможность ссылаться на другие заметки, бесчисленное множество плагинов, самые разнообразные темы и многое другое.
+> [!NOTE]
+> Main advantages:
+> 1. By default, your notes are stored locally on your device, so you can write without an internet connection. They are not tied to an account, but you should still keep backups.
+> 2. Markdown notes are plain-text files. They are easy to read and compare in version control because the text and markup are visible in the file. For a comparison with Word, see [this YouTube video](https://youtu.be/7a-YGcVG4_0?si=fE2bQnz8mPMC9bOP).
+> 3. Version control is easy to set up, especially with a tool such as GitHub: you can see which lines changed, which files moved, and more.
+> 4. Obsidian has many distinctive features: links between notes, a wide range of plugins and themes, and much more.
 
-Но не стоит забывать, что всё это лишь для удобства ведения заметок, не более того. Не нужны заметки? Не нужно хранить информацию? Тогда закройте эту вкладку.
+Remember that all of this is useful only if you want to take notes and store information. Don't need notes? Don't need to store information? Then close this tab.
 
-# Как пользоваться? Где изучить Markdown и возможности приложения?
+# How do I use Obsidian? Where can I learn Markdown and about the app's features?
 
-Скачать Obsidian можно с официального сайта: [Download - Obsidian](https://obsidian.md/download)
+Download Obsidian from the official site: [Download - Obsidian](https://obsidian.md/download)
 
-Когда вы решитесь освоить Obsidian, советую пройти гайд от самих разработчиков. Цель гайда — научить вас работать в Markdown и показать некоторые уникальные фишки Obsidian. Если вас интересует что-то другое касательно Obsidian, то у вас всегда есть возможность посетить официальный сайт — [Home - Obsidian Help](https://obsidian.md/help/) или просто [Obsidian - Sharpen your thinking](https://obsidian.md/).
+When you are ready to learn Obsidian, I recommend starting with the guide from its developers. It teaches you Markdown and introduces some of Obsidian's distinctive features. For anything else, visit the official site: [Home - Obsidian Help](https://obsidian.md/help/) or [Obsidian - Sharpen your thinking](https://obsidian.md/).
 
-Для получения полного гайда вам потребуется либо в меню `Manage Vaults` найти `Sandbox Vault`, либо, если его там нет, открыть любую папку как `Vault`, а затем снизу в панели настроек найти знак вопроса, кликнув по которому, вы откроете меню с пунктом `Sandbox Vault`.
+To open the full guide, find `Sandbox Vault` in the `Manage Vaults` menu. If it is not there, open any folder as a `Vault`, then find the question-mark icon at the bottom of the settings panel and choose `Sandbox Vault`.
 
->[!tip]
->Как оказалось, эти инструкции — не полный и, признаться честно, не лучший разбор возможностей Obsidian: уж больно простым языком всё рассказывается. Совершенно случайно мне попался разбор куда лучше, так сказать, уже для взрослых, но предназначенный изначально для обучения Gemini работе с приложением. Этот разбор я скачал с сайта плагина [Gemini Scribe](https://github.com/allenhutchison/obsidian-gemini/). В папке [bundled-skills](https://github.com/allenhutchison/obsidian-gemini/blob/master/prompts/bundled-skills) есть несколько заметок, но для человека полезна только эта четвёрка:
+> [!TIP]
+> As it turned out, this guide is not a complete account of Obsidian's features and, to be honest, it is not the best one: the explanations are very simple. By chance, I found a much better guide, aimed at more advanced readers and originally made to teach Gemini how to use the app. I downloaded it from the [Gemini Scribe](https://github.com/allenhutchison/obsidian-gemini/) plugin site. The [bundled-skills](https://github.com/allenhutchison/obsidian-gemini/blob/master/prompts/bundled-skills) folder has several notes, but I found only these four useful for people:
 >
-> - [Obsidian Flavored Markdown](guides_for_ai/obsidian-markdown.md) — базовый синтаксис, ссылки и эмбеды.
-> - [Obsidian Properties](guides_for_ai/obsidian-properties.md) — работа со свойствами заметок (frontmatter).
-> - [JSON Canvas](guides_for_ai/json-canvas.md) — бесконечный холст Obsidian.
-> - [Obsidian Bases](guides_for_ai/obsidian-bases.md) — базы данных внутри приложения.
+> - [Obsidian Flavored Markdown](guides_for_ai/obsidian-markdown.md) - basic syntax, links, and embeds
+> - [Obsidian Properties](guides_for_ai/obsidian-properties.md) - note properties (frontmatter)
+> - [JSON Canvas](guides_for_ai/json-canvas.md) - Obsidian's infinite canvas
+> - [Obsidian Bases](guides_for_ai/obsidian-bases.md) - databases within the app
 >
-> Для изучения Obsidian достаточно прочитать 1-ый файл, [obsidian-markdown](guides_for_ai/obsidian-markdown.md), в котором рассказывается самый, что называется, сок. Остальное — уже на любителя.
+> To learn Obsidian, it is enough to read the first file, [obsidian-markdown](guides_for_ai/obsidian-markdown.md), which has the good stuff, as they say. The rest is for those who are interested.
 
-Перед тем как начать составлять заметки, советую ознакомиться с моей [заметкой для "инициализации" Vault](Initial.md).
+Before you start writing notes, I recommend reading my [Vault setup guide](docs/getting-started.md).
 
-# Что нужно, чтобы начать?
+# What do you need to get started?
 
-Чтобы уже сейчас начать работать с Obsidian, вам достаточно:
-- изучить `Sandbox Vault` и/или [`obsidian-markdown`](guides_for_ai/obsidian-markdown.md)
-- прочитать [мои must-have для начальных настроек приложения](Initial.md#must-have)
+To start using Obsidian right away, you only need to:
+- explore `Sandbox Vault` and/or [`obsidian-markdown`](guides_for_ai/obsidian-markdown.md)
+- read my [must-haves for the initial app setup](docs/getting-started.md#must-haves)
 
-# Более глубокое изучение
+# A deeper dive
 
-## Личные советы
+## Personal tips
 
-### Версии файлов
+### File versions
 
-Не знаю, будете ли вы сохранять свой Vault в Git / GitHub / GitLab, но в любом случае вы сможете отслеживать версии, причём эта функция встроена по умолчанию! Если вы перейдёте в `Settings` -> `Core Plugins` -> `File Recovery`, то увидите, что каждые 5 минут создаётся снимок ваших `.md`-файлов. Эти снимки хранятся неделю, и вы можете посмотреть каждый из них для любой заметки, кликнув на `View`. Очень полезная фишка, которая спасает в важные моменты (особенно когда удаляете файл из системной корзины ноутбука 😅).
+Whether or not you keep your Vault in Git, GitHub, or GitLab, you can track versions with Obsidian's built-in feature. In `Settings` -> `Core Plugins` -> `File Recovery`, you can see that snapshots of your `.md` files are created every five minutes and kept for a week. You can view a snapshot for any note by clicking `View`. It is a useful feature in a pinch, especially after you have emptied your computer's Recycle Bin.
 
-### Топики
+### Headings
 
-Чтобы ваши заметки можно было удобно читать, используйте топики (заголовки). Благодаря им вы, например, можете прямо сейчас найти в правом верхнем углу иконку списка, кликнуть на неё и увидеть выжимку того, что есть в этой заметке. Так что топики — это прям must-have. Такое же меню, как и тут на GitHub, вы всегда можете открыть и в Obsidian (оно находится в правом верхнем углу в виде значка из трёх полосок).
+Use headings to make your notes easier to read. For example, you can click the outline icon in the upper-right corner to see a summary of the current note. Headings are a must-have. You can open the same kind of outline here on GitHub and in Obsidian; in Obsidian, it is the three-lines icon in the upper-right corner.
 
-### Callout-ы
+### Callouts
 
-Помимо топиков в вашей власти так называемые callout-ы. О них было написано в `Sandbox Vault`, однако там есть опечатки (возможно, просто устаревшая версия). Для этого можно использовать готовые списки:
-- [Callouts_for_GitHub](Callouts_for_GitHub.md)
-- [Callouts_for_Obsidian](Callouts_for_Obsidian.md)
+Besides headings, you can use callouts. The `Sandbox Vault` has information about them, but it contains some typos (or perhaps it is an outdated version). You can use these ready-made lists instead:
+- [GitHub callouts](docs/callouts/github.md)
+- [Obsidian callouts](docs/callouts/obsidian.md)
 
-Важно отметить, что callout-ы для GitHub работают в Obsidian, но в обратную сторону это не работает. Так что будьте внимательны. И ещё одно важное НО: GitHub-callout-ы не поддерживают заголовки, так что вместо `>[!tip] Мегасовет!` придётся писать просто `>[!tip]`. Также в Obsidian очень удобно делать сворачиваемые колауты с помощью знаков `+` или `-` (например, `>[!note]-` или `>[!note]+`), но на GitHub эта функция не поддерживается.
+GitHub alerts also work in Obsidian, but Obsidian-specific callouts do not necessarily work on GitHub. Be careful. GitHub alerts use fixed type labels rather than a custom title on the marker line, so write only `>[!TIP]` there and put any additional text in the alert body. Obsidian also supports foldable callouts using `+` or `-` (for example, `>[!note]-` or `>[!note]+`), but GitHub alerts do not support these folding markers.
 
-Чтобы увидеть, как выглядят обсидиановские callout-ы, сохраните эту заметку в свой Vault. Крайне рекомендую их использовать пореже, чтобы не привыкать. GitHub их обеспечить не может. Мне они понадобились только для публикации сайта на [Quartz](#публикация).
+To see what Obsidian callouts look like, save this note in your Vault. I recommend using them sparingly so you do not get used to relying on them. GitHub cannot provide the same appearance. I only needed them to publish a site with [Quartz](#publishing).
 
-### Расположение файлов в дереве
+### File and folder order
 
-Слева в дереве сначала располагаются папки, а затем файлы. Между собой они сортируются в порядке кодов из Unicode.
+In the file tree, folders appear first, followed by files. Each group is sorted by Unicode code point order.
 
-> [!tip]
-> **Как упорядочить файлы и папки по-своему?**
-> 
-> Если вы хотите отправить какую-то папку на самый верх, то можете воспользоваться следующей упорядоченной цепью:
-> 
-`!файл -> #файл -> @файл -> _файл -> 01_файл -> A_файл`
-> 
-Также стоит отметить, что всякая английская буква младше всякой русской и что никто не мешает вам задать порядок следующим образом:
-> 
->`01_файл -> 02_файл -> ...`
+> [!TIP]
+> **How can you put files and folders in your preferred order?**
+>
+> To move a folder to the top, you can use this sequence:
+>
+> `!file -> #file -> @file -> _file -> 01_file -> A_file`
+>
+> Note that every English letter sorts before every Russian letter. You can also set the order like this:
+>
+> `01_file -> 02_file -> ...`
 
-> [!tip]
-> **Сохранение смысла заметок**
-> 
-> Также многие на YouTube рекомендуют в каждой папке хранить главную заметку, которая опишет, что в текущей папке находится. Очень полезно, когда заметок становится так много, что не сыскать ни конца, ни начала. Аналог такого на GitHub — `README`-файлы.
+> [!TIP]
+> **Keeping notes meaningful**
+>
+> Many people on YouTube also recommend keeping a main note in each folder to describe what is in that folder. This is useful when you have so many notes that it is hard to find your way around. The equivalent on GitHub is a `README` file.
 
-### Hot Keys
+### Hotkeys
 
-Горячие клавиши (англ. **Hot Keys**) — это отличный способ ускорить вашу работу с ноутбуком в разы. Не игнорируйте их. Да, и без них можно обойтись, но ведь и без Obsidian вы могли бы обойтись.
+Hotkeys are a great way to speed up your work on a laptop. Do not ignore them. Yes, you can get by without them, but you could get by without Obsidian, too.
 
->[!important]
->Горячих клавиш так много, что люди зачастую опускают руки сразу при начале изучения этих связок. Оно и понятно: этих горячих клавиш существуют сотни, если не тысячи. Однако есть важное НО: из них вам понадобятся максимум 20. Об этом вам никто не скажет.
+> [!IMPORTANT]
+> There are so many hotkeys that people often give up as soon as they start learning them. Understandably, there are hundreds, if not thousands. But here is the important thing: you will need no more than 20. No one tells you that.
 
-Про них я написал в заметке [HotKeys](HotKeys.md). Там же есть раздел [для Obsidian](HotKeys.md#obsidian).
+I wrote about them in [Hotkeys](docs/hotkeys.md). That page also has a section [for Obsidian](docs/hotkeys.md#obsidian).
 
->[!tip]
->Главной связкой клавиш для Obsidian служит сочетание `Ctrl + E`, позволяющее переключать режим чтения на редактирование и наоборот.
+> [!TIP]
+> The most useful Obsidian hotkey is `Ctrl + E`, which switches between reading and editing modes.
 
 ## Web Clipper
 
-Помимо самого приложения [obsidianmd/obsidian-releases](https://github.com/obsidianmd/obsidian-releases) в репозитории компании [Obsidian.md](https://github.com/obsidianmd) есть и другой немалый проект — [obsidianmd/obsidian-clipper](https://github.com/obsidianmd/obsidian-clipper). Перейдя по ссылке, вы откроете `README.md`, в котором будет пара слов о том, что вообще это за репозиторий, и будет выбор магазина для установки расширения в браузер. Из репозиториев Obsidian ещё есть [obsidianmd/obsidian-api](https://github.com/obsidianmd/obsidian-api), но его применение для меня пока остаётся загадкой — только если вы строите второй мозг по Карпатому (что, как мне кажется, дело бессмысленное) или что-то в этом духе.
+Alongside the app itself, Obsidian's repositories include [obsidianmd/obsidian-releases](https://github.com/obsidianmd/obsidian-releases), the company's [GitHub organization](https://github.com/obsidianmd), and the substantial [obsidianmd/obsidian-clipper](https://github.com/obsidianmd/obsidian-clipper) project. Its `README.md` briefly explains the repository and links to browser extension stores. Obsidian also has the [obsidianmd/obsidian-api](https://github.com/obsidianmd/obsidian-api) repository, though I still do not see much use for it unless you are building a "second brain" according to Karpatomu (which, in my opinion, is pointless) or something along those lines.
 
-Очень рекомендую это расширение, если вы часто видите страницу, содержание которой хочется сохранить себе на память — будь то важная статья о версионировании в современной индустрии или маленькая автобиография футболиста. Расширение позволит скачивать в формате `.md` весь текст сайта, поддерживая разделения по топикам и вписывая в начало заметки ссылку на сайт.
+I highly recommend the Web Clipper if you often come across pages you want to save, whether it is an important article about version control in today's industry or a footballer's short biography. The extension can save the site's text as a `.md` file, keep the topic structure, and add a link to the original site at the beginning of the note.
 
-## Синхронизация
+## Sync
 
-Чтобы синхронизировать свой Vault между устройствами или просто хранить где-то помимо вашего ПК, есть несколько вариантов:
-1. Самый простой — через [Obsidian Sync](https://obsidian.md/help/sync) (4$ в месяц).
-2. Через Google, Яндекс или другой диск (цена только за ваш диск). Крайне рекомендую в таком случае прибегнуть к следующей архитектуре, чтобы не синхронизировать папку `.obsidian` (если не знаете, почему её и прочие скрытые папки не стоит синхронизировать, спросите у ИИ):
-	- Папка Storage
-		- Папка `.obsidian`
-		- Папка для синхронизации с вашим диском
-3. При помощи GitHub через создание private-репозитория (бесплатно). Для синхронизации между устройствами (в том числе мобильными) советую прочитать этот гайд (в нём будет также рассказано, как запускать коммиты автоматически и периодически): [Obsidian+GitHub вместо Notion: синхронизация, бекап и версионность (3-в-1) / Хабр](https://habr.com/ru/articles/843288/?ysclid=mrj9ut2748789300662).
+There are several ways to sync your Vault across devices or keep a copy somewhere other than your computer:
+1. The simplest option is [Obsidian Sync](https://obsidian.md/help/sync) ($4 per month with annual billing, or $5 per month with monthly billing).
+2. Use Google Drive, Yandex Disk, or another drive (you only pay for the storage). In that case, I strongly recommend using this folder structure so that you do not sync the `.obsidian` folder. If you do not know why you might want to avoid syncing it and other hidden folders, ask an AI assistant:
+	- `Storage`
+		- `.obsidian`
+		- a folder that syncs with your drive
+3. Use GitHub with a private repository (free). To sync across devices, including mobile ones, I recommend this guide. It also explains how to automate commits at regular intervals: [Obsidian+GitHub instead of Notion: syncing, backup, and version control (3-in-1) / Habr](https://habr.com/ru/articles/843288/?ysclid=mrj9ut2748789300662).
 
-Забавно, что чем дешевле вариант, тем он проще.
+It is amusing that the cheaper the option, the simpler it is.
 
-Спустя почти полгода активного пользования Obsidian для себя я решил разделить все свои файлы: вести заметки в Obsidian и синхронизировать через GitHub (3-м способом из вышеперечисленных), а все остальные файлы оставить на Google Диске. О том, почему не стоит использовать GitHub для всех-всех своих файлов, я рассказывать тут не стану, просто скажу, что:
-1) отправлять файлы более 100 МБ на GitHub нельзя;
-2) клонировать репозиторий объёмом более 2 ГБ становится задачкой со звёздочкой (или даже двумя);
-3) будет просто полезно разделить ваши файлы на «Для работы/учёбы/IT» и «Личное».
+After using Obsidian actively for almost six months, I decided to split up my files: I keep notes in Obsidian and sync them through GitHub (the third option above), while leaving all other files in Google Drive. I will not go into why you should not use GitHub for absolutely all your files. I will just say that:
+1. GitHub blocks regular Git files larger than 100 MiB; Git LFS is an alternative.
+2. Large repositories take longer to clone. I find repositories over 2 GB especially cumbersome. GitHub recommends keeping repositories under 1 GB and strongly recommends staying under 5 GB.
+3. It is simply useful to separate your files into "Work/Study/IT" and "Personal".
 
-## Публикация
+## Publishing
 
-Obsidian хорош ещё и тем, что любой ваш Vault очень просто превратить в сайт, т. е. опубликовать. Есть два способа:
-- Напрямую через [Obsidian Publish](https://obsidian.md/help/publish) ($8 в месяц).
-- Через [Quartz](https://quartz.jzhao.xyz/) (бесплатно).
+Obsidian also lets you publish a Vault as a website in two ways:
+- Directly with [Obsidian Publish](https://obsidian.md/help/publish) ($8 per month with annual billing, or $10 per month with monthly billing).
+- With [Quartz](https://quartz.jzhao.xyz/) (free).
 
-Второй способ довольно сложный, поэтому если вам и вправду нужно опубликовать заметки, советую воспользоваться моим уже [настроенным шаблоном](https://github.com/sergeypugin/quartz-ready-template) (пример того, как это будет выглядеть: https://sergeypugin.github.io/itmo-notebook/).
+The second option is fairly complicated, so if you really want to publish your notes, I recommend using my already configured [template](https://github.com/sergeypugin/quartz-ready-template) (here is [an example](https://sergeypugin.github.io/itmo-notebook/)).
 
-> Сама документация Obsidian — это и есть Vault, опубликованный на сайте. Перейдя по ссылкам, вы увидите, как будет выглядеть ваш Vault после публикации.
+> Obsidian's own documentation is a Vault published as a website. Follow its links to see what a published Vault can look like.

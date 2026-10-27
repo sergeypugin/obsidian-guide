@@ -1,3 +1,5 @@
+[English](obsidian.md) | [Русский](obsidian.ru.md)
+
 > [!note]
 > * **Цвет:** Синий
 > * **Иконка:** Карандаш
