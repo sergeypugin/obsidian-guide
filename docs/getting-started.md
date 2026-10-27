@@ -1,3 +1,5 @@
+[English](getting-started.md) | [Русский](getting-started.ru.md)
+
 # Must-haves
 
 Before you start, the first thing to do is set up your workspace:

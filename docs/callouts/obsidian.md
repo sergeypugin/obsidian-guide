@@ -1,3 +1,5 @@
+[English](obsidian.md) | [Русский](obsidian.ru.md)
+
 > [!note]
 > * **Color:** Blue
 > * **Icon:** Pencil

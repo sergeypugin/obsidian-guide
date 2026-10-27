@@ -1,3 +1,5 @@
+[English](README.md) | [Русский](README.ru.md)
+
 ![](Attachments/obsidian.png)
 # What are Obsidian and Markdown?
 

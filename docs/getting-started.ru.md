@@ -1,3 +1,5 @@
+[English](getting-started.md) | [Русский](getting-started.ru.md)
+
 # Must-have
 
 Перед началом работы всегда важно первым делом настроить "рабочий стол":

@@ -1,3 +1,5 @@
+[English](hotkeys.md) | [Русский](hotkeys.ru.md)
+
 > [!IMPORTANT]
 > There are so many hotkeys that people often give up as soon as they start learning them. Understandably, there are hundreds, if not thousands. But here is the important thing: you will need no more than 20. Read more in the [README](../README.md#hotkeys).
 # Universal must-haves

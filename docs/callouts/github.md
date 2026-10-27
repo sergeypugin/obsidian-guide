@@ -1,3 +1,5 @@
+[English](github.md) | [Русский](github.ru.md)
+
 > [!NOTE]
 > * **On GitHub:** Blue border, information icon (`i`)
 > * **In Obsidian:** Blue border, pencil icon
