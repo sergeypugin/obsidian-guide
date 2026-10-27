@@ -123,6 +123,6 @@ Obsidian also lets you publish a Vault as a website in two ways:
 - Directly with [Obsidian Publish](https://obsidian.md/help/publish) ($8 per month with annual billing, or $10 per month with monthly billing).
 - With [Quartz](https://quartz.jzhao.xyz/) (free).
 
-The second option is fairly complicated, so if you really want to publish your notes, I recommend using my already configured template (here is [an example](https://sergeypugin.github.io/itmo-notebook/)).
+The second option is fairly complicated, so if you really want to publish your notes, I recommend using my already configured [template](https://github.com/sergeypugin/quartz-ready-template) (here is [an example](https://sergeypugin.github.io/itmo-notebook/)).
 
 > Obsidian's own documentation is a Vault published as a website. Follow its links to see what a published Vault can look like.
