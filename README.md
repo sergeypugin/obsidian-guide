@@ -1,5 +1,7 @@
 [English](README.md) | [Русский](README.ru.md)
 
+This repository contains the GitHub version of my Obsidian guide. If you came here from [my Habr article](https://habr.com/ru/articles/1082438/), note that the article is in Russian.
+
 ![](Attachments/obsidian.png)
 # What are Obsidian and Markdown?
 
@@ -7,14 +9,14 @@ Obsidian is not a cloud service. It is a convenient, polished interface for work
 
 > [!NOTE]
 > Main advantages:
-> 1. By default, your notes are stored locally on your device, so you can write without an internet connection. They are not tied to an account, but you should still keep backups.
-> 2. Markdown notes are plain-text files. They are easy to read and compare in version control because the text and markup are visible in the file. For a comparison with Word, see [this YouTube video](https://youtu.be/7a-YGcVG4_0?si=fE2bQnz8mPMC9bOP).
-> 3. Version control is easy to set up, especially with a tool such as GitHub: you can see which lines changed, which files moved, and more.
-> 4. Obsidian has many distinctive features: links between notes, a wide range of plugins and themes, and much more.
+> 1. By default, your notes are stored locally on your device, so you can write without an internet connection. They are not tied to an account, but you should still keep backups
+> 2. Markdown notes are plain-text files. They are easy to read and compare in version control because the text and markup are visible in the file. For a comparison with Word, see [this YouTube video](https://youtu.be/7a-YGcVG4_0?si=fE2bQnz8mPMC9bOP)
+> 3. Version control is easy to set up, especially with a tool such as GitHub: you can see which lines changed, which files moved, and more
+> 4. Obsidian has many distinctive features: links between notes, a wide range of plugins and themes, and much more
 
 Remember that all of this is useful only if you want to take notes and store information. Don't need notes? Don't need to store information? Then close this tab.
 
-# How do I use Obsidian? Where can I learn Markdown and about the app's features?
+# How do I use Obsidian? Where can I learn Markdown and more about the app's features?
 
 Download Obsidian from the official site: [Download - Obsidian](https://obsidian.md/download)
 
@@ -103,19 +105,19 @@ I highly recommend the Web Clipper if you often come across pages you want to sa
 ## Sync
 
 There are several ways to sync your Vault across devices or keep a copy somewhere other than your computer:
-1. The simplest option is [Obsidian Sync](https://obsidian.md/help/sync) ($4 per month with annual billing, or $5 per month with monthly billing).
+1. The simplest option is [Obsidian Sync](https://obsidian.md/help/sync) ($4 per month with annual billing, or $5 per month with monthly billing)
 2. Use Google Drive, Yandex Disk, or another drive (you only pay for the storage). In that case, I strongly recommend using this folder structure so that you do not sync the `.obsidian` folder. If you do not know why you might want to avoid syncing it and other hidden folders, ask an AI assistant:
 	- `Storage`
 		- `.obsidian`
 		- a folder that syncs with your drive
-3. Use GitHub with a private repository (free). To sync across devices, including mobile ones, I recommend this guide. It also explains how to automate commits at regular intervals: [Obsidian+GitHub instead of Notion: syncing, backup, and version control (3-in-1) / Habr](https://habr.com/ru/articles/843288/?ysclid=mrj9ut2748789300662).
+3. Use GitHub with a private repository (free). To sync across devices, including mobile ones, I recommend this guide. It also explains how to automate commits at regular intervals: [Obsidian+GitHub instead of Notion: syncing, backup, and version control (3-in-1) / Habr](https://habr.com/ru/articles/843288/?ysclid=mrj9ut2748789300662)
 
 It is amusing that the cheaper the option, the simpler it is.
 
 After using Obsidian actively for almost six months, I decided to split up my files: I keep notes in Obsidian and sync them through GitHub (the third option above), while leaving all other files in Google Drive. I will not go into why you should not use GitHub for absolutely all your files. I will just say that:
-1. GitHub blocks regular Git files larger than 100 MiB; Git LFS is an alternative.
-2. Large repositories take longer to clone. I find repositories over 2 GB especially cumbersome. GitHub recommends keeping repositories under 1 GB and strongly recommends staying under 5 GB.
-3. It is simply useful to separate your files into "Work/Study/IT" and "Personal".
+1. GitHub blocks regular Git files larger than 100 MiB; Git LFS is an alternative
+2. Large repositories take longer to clone. I find repositories over 2 GB especially cumbersome. GitHub recommends keeping repositories under 1 GB and strongly recommends staying under 5 GB
+3. It is simply useful to separate your files into "Work/Study/IT" and "Personal"
 
 ## Publishing
 
